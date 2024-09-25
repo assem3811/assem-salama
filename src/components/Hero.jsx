@@ -6,11 +6,11 @@ export const Hero = () => {
   return (
     <section className='flex min-h-screen flex-wrap items-center'>
         <div className='w-full md:w-1/2'>
-            <h2 className='my-auto p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]'>
+            <h2 className='mt-6 p-2 text-4xl font-bold md:text-5xl lg:text-[7rem]'>
                 {HERO.name}
             </h2>
             <h3 className='my-auto p-2 text-xl font-thin md:text-5xl lg:text-[3rem]'>
-                Software Engineer
+                {HERO.jobTitle}
             </h3>
             <p className='my-4 p-2 text-3xl tracking-tighter lg:text-4xl'>
                 {HERO.greet}

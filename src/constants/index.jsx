@@ -33,8 +33,9 @@ export const NAVIGATION_LINKS = [
 export const HERO = {
   name: "ASSEM SALAMA",
   greet: "Hello there! 👋🏻",
-  description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+  jobTitle: "Software Engineer",
+  description: 
+    "I'm a Software Engineer with a passion for creating scalable and efficient solutions. Specializing in backend development and system optimization, I focus on building high-performance applications. Explore my work and let's collaborate on driving innovation together!"
 };
 
 export const PROJECTS = [
