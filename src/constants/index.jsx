@@ -90,9 +90,9 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
+  "Assem Salama is a dedicated Software Engineer with over 2 years of experience in backend development, system optimization, and API integration. He holds a Bachelor degree in Computer and Communication Engineering from Faculty of Engineering, Alexandria University where he developed a solid foundation in software engineering and problem-solving. His expertise spans various technologies, with a focus on building efficient and scalable software solutions.",
+  "At Brightskies Inc., Assem has contributed to the development of robust backend solutions, working on API design, backend process optimization, and database management. He has also played a key role in improving system performance, enhancing user experience through advanced web development techniques, and implementing AI-powered solutions such as chatbots.",
+  "His career began with internships where he gained hands-on experience in mobile app enhancement and website development. With a passion for innovation and creating high-performance solutions, Assem continues to seek out new challenges and opportunities to drive efficiency and growth through technology."
 ];
 
 export const SKILLS = [

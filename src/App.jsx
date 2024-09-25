@@ -1,6 +1,7 @@
 import React from 'react'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
+import { Bio } from './components/Bio'
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
         container mx-auto'>
             <Hero />
             <Navbar />
+            <Bio />
         </div>
     </div>
   )
