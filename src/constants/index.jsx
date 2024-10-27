@@ -22,7 +22,7 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
-  { label: "Projects", href: "#projects" },
+  { label: "Services", href: "#services" },
   { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
@@ -38,7 +38,7 @@ export const HERO = {
     "I'm a Software Engineer with a passion for creating scalable and efficient solutions. Specializing in backend development and system optimization, I focus on building high-performance applications. Explore my work and let's collaborate on driving innovation together!"
 };
 
-export const PROJECTS = [
+export const SERVICES = [
   {
     id: 1,
     name: "Personal Portfolio",
