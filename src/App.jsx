@@ -4,6 +4,7 @@ import { Navbar } from './components/Navbar'
 import { Bio } from './components/Bio'
 import { Services } from './components/Services'
 import { Skills } from './components/Skills'
+import { WorkExperience } from './components/WorkExperience'
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
             <Services />
             <Bio />
             <Skills />
+            <WorkExperience />
         </div>
     </div>
   )
