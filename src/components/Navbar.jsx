@@ -61,7 +61,8 @@ export const Navbar = () => {
                 <div className="flex items-center justify-between">
                     <div>
                         <a href="#">
-                            <img src={logo} width={90} className="m-2" alt="logo"/>
+                            {/* <img src={logo} width={90} className="m-2" alt="logo"/> */}
+                            <p className="mx-4">Assem Salama</p>
                         </a>
                     </div>
                     <div className="flex items-center">
