@@ -49,6 +49,10 @@ export const Services = () => {
                             </div>
                         </a> */}
                      </motion.div>
+                     <div className="md:hidden absolute inset-0 flex flex-col items-center justify-center text-white opacity-100 backdrop-blur-lg transition-opacity duration-500">
+                        <h3 className="mb-2 text-xl">{service.name}</h3>
+                        <p className="mb-12 p-4">{service.description}</p>
+                    </div>
                 </motion.div>
             ))}
         </div>
