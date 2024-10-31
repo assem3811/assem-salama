@@ -7,12 +7,12 @@ import {
   FaInstagram,
 } from "react-icons/fa6";
 
-import projectImage1 from "../assets/project1.jpeg";
-import projectImage2 from "../assets/project2.jpeg";
-import projectImage3 from "../assets/project3.jpeg";
-import projectImage4 from "../assets/project4.jpeg";
-import projectImage5 from "../assets/project5.jpeg";
-import projectImage6 from "../assets/project6.jpeg";
+import fullStackImage from "../assets/full-stack.webp";
+import flutterImage from "../assets/flutter-logo.webp";
+import cmsImage from "../assets/cms-logo.webp";
+import uiUxImage from "../assets/ui-ux-logo.jpeg";
+import optimizationImage from "../assets/optimization-logo.png";
+import consultingImage from "../assets/consulting-logo.png";
 
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -20,6 +20,10 @@ import { SiMongodb } from "react-icons/si";
 import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { BiLogoSpringBoot } from "react-icons/bi";
+import { SiMysql } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
+import { BiLogoFlutter } from "react-icons/bi";
 
 export const NAVIGATION_LINKS = [
   { label: "Services", href: "#services" },
@@ -41,50 +45,50 @@ export const HERO = {
 export const SERVICES = [
   {
     id: 1,
-    name: "Personal Portfolio",
+    name: "Full-Stack Development",
     description:
-      "A personal portfolio website built with React and Tailwind CSS to showcase my skills, projects, and contact information.",
-    image: projectImage1,
+      "Dynamic web solutions from backend to frontend, open to any technology stack that best fits your needs. From responsive design to robust infrastructure, your vision becomes reality.",
+    image: fullStackImage,
     githubLink: "https://github.com/user/personal-portfolio",
   },
   {
     id: 2,
-    name: "E-Commerce Platform",
+    name: "Cross-Platform Mobile Application Development",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
-    image: projectImage2,
+      "Creating high-performance mobile apps using Flutter, delivering a consistent and engaging experience across both iOS and Android – putting your ideas in the hands of your audience.",
+    image: flutterImage,
     githubLink: "https://github.com/user/ecommerce-platform",
   },
   {
     id: 3,
-    name: "Task Management Tool",
+    name: "Content Management Systems",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
-    image: projectImage3,
+      "Streamline content management with custom CMS solutions that are user-friendly, flexible, and tailored to your brand’s needs, empowering you to update and grow your website with ease",
+    image: cmsImage,
     githubLink: "https://github.com/user/task-management-tool",
   },
   {
     id: 4,
-    name: "Weather App",
+    name: "UI/UX",
     description:
-      "A weather application that uses the OpenWeatherMap API to fetch and display current weather data and forecasts for various locations, built with React and styled-components.",
-    image: projectImage4,
+      "Designing beautiful, user-centered interfaces that make every interaction intuitive and seamless, enhancing user satisfaction and brand loyalty.",
+    image: uiUxImage,
     githubLink: "https://github.com/user/weather-app",
   },
   {
     id: 5,
-    name: "Blog Platform",
+    name: "System Optimization",
     description:
-      "A blogging platform developed with Next.js and Markdown for creating, editing, and publishing blog posts. It features a rich text editor, tag system, and user authentication.",
-    image: projectImage5,
+      "Maximizing efficiency by optimizing your systems for speed, security, and scalability, so your operations run smoother and faster.",
+    image: optimizationImage,
     githubLink: "https://github.com/user/blog-platform",
   },
   {
     id: 6,
-    name: "Chat Application",
+    name: "Consulting",
     description:
-      "A real-time chat application using Firebase for backend services, including user authentication, chat rooms, and instant messaging features. Built with React and Firebase.",
-    image: projectImage6,
+      "Offering expert consulting to empower your business with strategic tech solutions, actionable insights, and sustainable growth plans tailored to your goals.",
+    image: consultingImage,
     githubLink: "https://github.com/user/chat-application",
   },
 ];
@@ -97,35 +101,35 @@ export const BIO = [
 
 export const SKILLS = [
   {
-    icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
-    name: "React",
+    icon: <BiLogoSpringBoot className="text-4xl text-green-600 lg:text-5xl" />,
+    name: "Spring Boot",
+    experience: "1+ years",
+  },
+  {
+    icon: <SiMysql className="text-4xl text-white lg:text-5xl"/>,
+    name: "MySQL Databases",
     experience: "2+ years",
-  },
-  {
-    icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
-    name: "Next.js",
-    experience: "1+ year",
-  },
-  {
-    icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
-    name: "MongoDB",
-    experience: "1.5+ years",
-  },
-  {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+    experience: "1+ years",
   },
   {
-    icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
-    name: "PostgreSQL",
+    icon: <FaWordpress className="text-4xl text-white lg:text-5xl" />,
+    name: "WordPress",
+    experience: "1+ years",
+  },
+  {
+    icon: <BiLogoFlutter className="text-4xl text-blue-400 lg:text-5xl" />,
+    name: "Flutter",
     experience: "1+ year",
   },
+  {
+    icon: <RiReactjsLine className="text-4xl text-blue-400 lg:text-5xl" />,
+    name: "React.js",
+    experience: "1+ years",
+  }
 ];
 
 export const EXPERIENCES = [
