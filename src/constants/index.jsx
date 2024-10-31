@@ -54,8 +54,8 @@ export const SERVICES = [
   {
     id: 2,
     name: "Cross-Platform Mobile Application Development",
-    description:
-      "Creating high-performance mobile apps using Flutter, delivering a consistent and engaging experience across both iOS and Android – putting your ideas in the hands of your audience.",
+    description: 
+      "Developing high-performance mobile apps with Flutter for seamless experiences on both iOS and Android, bringing your ideas to life.",
     image: flutterImage,
     githubLink: "https://github.com/user/ecommerce-platform",
   },
